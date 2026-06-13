@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REXAS Store — Clean & Minimal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- CSS Link -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar">
+    <p>Free shipping on orders above ₹999 &nbsp;·&nbsp; Use code <strong>REXAS10</strong> for 10% off</p>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container">
+
+      <a href="#" class="logo">REXAS</a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#deals">Deals</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="search-box">
+          <input type="text" placeholder="Search products..." />
+          <button aria-label="Search">&#128269;</button>
+        </div>
+        <a href="#wishlist" class="icon-btn" aria-label="Wishlist">&#9825;</a>
+        <a href="#cart" class="icon-btn cart-icon" aria-label="Cart">
+          &#128722;
+          <span class="cart-badge">3</span>
+        </a>
+        <a href="#account" class="icon-btn" aria-label="Account">&#128100;</a>
+      </div>
+
+      <button class="hamburger" aria-label="Open menu">&#9776;</button>
+
+    </div>
+  </header>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#products">Products</a>
+    <a href="#deals">Deals</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+
+      <div class="hero-text">
+        <span class="hero-tag">New Collection — 2025</span>
+        <h1>Products that<br /><span class="text-accent">elevate</span> your everyday.</h1>
+        <p>Minimal design. Maximum quality. Curated electronics and lifestyle gear delivered fast across India.</p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn-primary">Shop Now</a>
+          <a href="#deals" class="btn-ghost">View Deals</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>50k+</strong>
+            <span>Customers</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong>1,200+</strong>
+            <span>Products</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <strong>4.9★</strong>
+            <span>Avg Rating</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="Hero-image.jpg" alt="Featured product hero" />
+        <div class="hero-badge">
+          <span class="badge-label">Deal of the Day</span>
+          <span class="badge-discount">43% OFF</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TRUST STRIP ===== -->
+  <div class="trust-strip">
+    <div class="container trust-inner">
+      <div class="trust-item">
+        <span class="trust-icon">&#128666;</span>
+        <span>Free Delivery above ₹999</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#128260;</span>
+        <span>Easy 7-Day Returns</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#128274;</span>
+        <span>100% Secure Payments</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#9989;</span>
+        <span>Genuine Products Only</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section id="categories" class="categories">
+    <div class="container">
+
+      <div class="section-header">
+        <h2>Shop by Category</h2>
+        <p>Browse our curated collections</p>
+      </div>
+
+      <div class="categories-grid">
+
+        <a href="#" class="category-card">
+          <div class="category-icon">🎧</div>
+          <h3>Audio</h3>
+          <span>48 items</span>
+        </a>
+
+        <a href="#" class="category-card">
+          <div class="category-icon">⌚</div>
+          <h3>Wearables</h3>
+          <span>32 items</span>
+        </a>
+
+        <a href="#" class="category-card">
+          <div class="category-icon">📷</div>
+          <h3>Cameras</h3>
+          <span>21 items</span>
+        </a>
+
+        <a href="#" class="category-card">
+          <div class="category-icon">🎮</div>
+          <h3>Gaming</h3>
+          <span>55 items</span>
+        </a>
+
+        <a href="#" class="category-card">
+          <div class="category-icon">💻</div>
+          <h3>Laptops</h3>
+          <span>17 items</span>
+        </a>
+
+        <a href="#" class="category-card">
+          <div class="category-icon">📱</div>
+          <h3>Mobiles</h3>
+          <span>29 items</span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== DEAL BANNER ===== -->
+  <section id="deals" class="deal-banner">
+    <div class="container deal-inner">
+
+      <div class="deal-text">
+        <span class="deal-tag">Limited Time</span>
+        <h2>Deal of the Day</h2>
+        <h3>Sony WH-1000XM5</h3>
+        <p>Industry-leading noise cancellation. 30-hour battery. Premium foldable design.</p>
+        <div class="deal-pricing">
+          <span class="price-current">₹19,990</span>
+          <span class="price-original">₹34,990</span>
+          <span class="price-badge">43% OFF</span>
+        </div>
+        <div class="countdown" id="countdown">
+          <div class="countdown-block">
+            <strong id="cd-hours">08</strong>
+            <span>Hrs</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-block">
+            <strong id="cd-minutes">45</strong>
+            <span>Min</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-block">
+            <strong id="cd-seconds">12</strong>
+            <span>Sec</span>
+          </div>
+        </div>
+        <a href="#" class="btn-primary">Grab This Deal</a>
+      </div>
+
+      <div class="deal-image">
+        <img src="headphones.jpg" alt="Sony WH-1000XM5 headphones" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section id="products" class="products">
+    <div class="container">
+
+      <div class="section-header">
+        <h2>Our Products</h2>
+        <p>Quality picks, handpicked for you</p>
+      </div>
+
+      <!-- Filter & Sort Bar -->
+      <div class="filter-bar">
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="audio">Audio</button>
+          <button class="filter-btn" data-filter="wearables">Wearables</button>
+          <button class="filter-btn" data-filter="gaming">Gaming</button>
+          <button class="filter-btn" data-filter="cameras">Cameras</button>
+        </div>
+        <select class="sort-select" aria-label="Sort products">
+          <option value="">Sort by</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="rating">Top Rated</option>
+          <option value="newest">Newest</option>
+        </select>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+
+        <article class="product-card" data-category="audio">
+          <div class="product-img-wrap">
+            <img src="MAKE_MORE_SPACE.webp" alt="Pro Studio Headphones" />
+            <span class="product-badge">Bestseller</span>
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">Beats</p>
+            <h3 class="product-name">Pro Studio Headphones</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="count">(248)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹2,499</span>
+              <span class="price-was">₹3,999</span>
+              <span class="price-off">-38%</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="wearables">
+          <div class="product-img-wrap">
+            <img src="galaxy watch.webp" alt="Galaxy Watch 6" />
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">Samsung</p>
+            <h3 class="product-name">Galaxy Watch 6</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★☆</span>
+              <span class="count">(132)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹4,999</span>
+              <span class="price-was">₹6,500</span>
+              <span class="price-off">-23%</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cameras">
+          <div class="product-img-wrap">
+            <img src="mii cam.jpg" alt="Hero 12 Mini Cam" />
+            <span class="product-badge new">New</span>
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">GoPro</p>
+            <h3 class="product-name">Hero 12 Mini Cam</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="count">(87)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹8,999</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="gaming">
+          <div class="product-img-wrap">
+            <img src="controller.avif" alt="Wireless Elite Controller" />
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">Xbox</p>
+            <h3 class="product-name">Wireless Elite Controller</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★☆</span>
+              <span class="count">(314)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹1,799</span>
+              <span class="price-was">₹2,499</span>
+              <span class="price-off">-28%</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="audio">
+          <div class="product-img-wrap">
+            <img src="speaker.jpg" alt="JBL Flip 6" />
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">JBL</p>
+            <h3 class="product-name">Flip 6 Speaker</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="count">(519)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹3,299</span>
+              <span class="price-was">₹4,999</span>
+              <span class="price-off">-34%</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="wearables">
+          <div class="product-img-wrap">
+            <img src="airpods-4-no-case.jpg" alt="AirPods Pro" />
+            <span class="product-badge hot">Hot</span>
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">Apple</p>
+            <h3 class="product-name">AirPods Pro 2nd Gen</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="count">(1,023)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹16,999</span>
+              <span class="price-was">₹24,900</span>
+              <span class="price-off">-32%</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="gaming">
+          <div class="product-img-wrap">
+            <img src="g pro.jpg" alt="G Pro X Superlight" />
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">Logitech</p>
+            <h3 class="product-name">G Pro X Superlight</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+              <span class="count">(762)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹5,499</span>
+              <span class="price-was">₹7,999</span>
+              <span class="price-off">-31%</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="cameras">
+          <div class="product-img-wrap">
+            <img src="Mini12_1copy5.webp" alt="Instax Mini 12" />
+            <button class="wishlist-btn" aria-label="Add to wishlist">&#9825;</button>
+          </div>
+          <div class="product-body">
+            <p class="product-brand">Fujifilm</p>
+            <h3 class="product-name">Instax Mini 12</h3>
+            <div class="product-rating">
+              <span class="stars">★★★★☆</span>
+              <span class="count">(203)</span>
+            </div>
+            <div class="product-price">
+              <span class="price-now">₹6,499</span>
+              <span class="price-was">₹8,000</span>
+              <span class="price-off">-19%</span>
+            </div>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="load-more-wrap">
+        <button class="btn-outline">Load More Products</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+
+      <div class="section-header">
+        <h2>What Customers Say</h2>
+        <p>50,000+ happy shoppers across India</p>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Got my headphones in 2 days. Sound quality is incredible for the price. Totally recommend REXAS!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">RS</div>
+            <div>
+              <strong>Rahul S.</strong>
+              <span>Mumbai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Best deals I've found online. The AirPods were genuine, fast delivery and packaging was perfect."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">PA</div>
+            <div>
+              <strong>Priya A.</strong>
+              <span>Pune</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★☆</div>
+          <p>"Great variety and super fast support. Solved my return query in under an hour. Will shop again!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">KM</div>
+            <div>
+              <strong>Kiran M.</strong>
+              <span>Nagpur</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <div class="newsletter-text">
+        <h2>Get Exclusive Deals First</h2>
+        <p>Subscribe and be the first to know about flash sales, new arrivals, and secret discounts.</p>
+      </div>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" aria-label="Email address" />
+        <button class="btn-primary">Subscribe</button>
+      </div>
+      <p class="newsletter-note">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <h3 class="footer-logo">REXAS</h3>
+        <p>Your go-to destination for minimal, quality electronics and lifestyle products.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Bundles</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Returns & Refunds</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Warranty</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <address>
+          <p>&#128205; Nagpur, Maharashtra, India</p>
+          <p>&#128222; +91 98765 43210</p>
+          <p>&#9993; hello@REXAS.store</p>
+        </address>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 REXAS Store. All rights reserved.</p>
+        <div class="payment-icons">
+          <span>Visa</span>
+          <span>Mastercard</span>
+          <span>UPI</span>
+          <span>PayTM</span>
+          <span>RazorPay</span>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- JavaScript Link -->
+<script src="app.js"></script>
+
+</body>
+</html>
